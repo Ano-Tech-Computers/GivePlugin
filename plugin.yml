@@ -1,0 +1,11 @@
+name: GivePlugin
+main: com.floyd.bukkit.give.GivePlugin
+version: 1.11
+website: http://minecraft.atc.no/plugins
+author: FloydATC
+description: >
+        Give named items to players
+commands:
+  give:
+    description: Give named items to players
+    usage: /<command> <item>[:<data>[:<durability>]] [<amount>] [<player>]
